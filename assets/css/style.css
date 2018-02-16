@@ -121,3 +121,15 @@ footer {
     border-top: 5px solid #4aaaa5;
     padding: 0px;
 }
+
+input, textarea {
+    width: 90%;
+}
+
+.portfolioimage {
+    border: solid 1px black;
+}
+
+#portfoliocontainer {
+    display: flex;
+}
