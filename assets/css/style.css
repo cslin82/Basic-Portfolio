@@ -24,6 +24,10 @@ header, h1, nav, section, p, .article, #articleheader, aside, footer {
     margin: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
