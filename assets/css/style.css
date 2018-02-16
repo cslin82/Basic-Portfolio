@@ -5,16 +5,20 @@ body {
 }
 
 .container {
-    max-width: 960px;
+    width: 960px;
     margin: auto;
     /* display: flex; */
     /* flex-direction: row; */
     align-items: center;
+    flex-direction: row;
+    /* border: 3px dashed purple; */
+    justify-content: space-between;
+    display: flex;
+
 }    
 
 .sidebyside {
     display: flex;
-    flex-direction: row;
     /* border: 3px dashed purple; */
 }
 
@@ -30,6 +34,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
 }
 
 h1 {
@@ -40,8 +45,10 @@ h1 {
 
 header {
     background-color: #4aaaa5;
-    color: white;
+}
 
+header h1 {
+    color: white;
 }
 
 header, nav, section, aside, footer, .insidebox {
@@ -91,14 +98,26 @@ aside, #articlecontainer {
 }
 
 #topcontainer {
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     background-color: #ffffff;
     /* border: 2px dashed purple; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    padding: 0px;
+
 }
 
 footer {
     background-color: #666666;
-    color: #777777;
+    color: #cccccc;
+    margin: auto;
+    text-align: center;
+}
+
+#bottomcontainer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 5px solid #4aaaa5;
+    padding: 0px;
 }
