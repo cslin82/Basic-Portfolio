@@ -93,7 +93,7 @@ aside, #articlecontainer {
 #facephoto {
     float: left;
     border: solid black 1px;
-    margin: 0em 1em;
+    margin: 0em 1em 0em 0em;
 
 }
 
@@ -152,8 +152,4 @@ input, textarea {
     position: relative;
     bottom: 25%;
     border: solid 1px black;
-}
-
-.portfolioimage>p {
-    font-weight: bold;
 }
