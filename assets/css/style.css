@@ -30,6 +30,15 @@ header, h1, nav, section, p, .article, #articleheader, aside, footer {
 
 a {
     text-decoration: none;
+    color: #63E4DD;
+}
+
+a:visited {
+    color: #1C403E;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,13 +54,14 @@ h1 {
 
 header {
     background-color: #4aaaa5;
+    margin: 0px;
 }
 
 header h1 {
     color: white;
 }
 
-header, nav, section, aside, footer, .insidebox {
+header, nav, section, aside, footer,  {
     /* background-color: #4aaaa5; */
     /* text-align: center; */
         margin: 10px;
@@ -81,14 +91,6 @@ aside, #articlecontainer {
     border: 1px solid #dddddd;
 
 }
-
-/* .insidebox {
-    color: dimgray;
-} */
-
-/* #articleheader {
-
-} */
 
 #facephoto {
     float: left;
@@ -153,3 +155,7 @@ input, textarea {
     bottom: 25%;
     border: solid 1px black;
 }
+
+#articlecontainer h1, aside h1, aside p {
+    padding: 10px;
+    }
