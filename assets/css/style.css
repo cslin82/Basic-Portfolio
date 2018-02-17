@@ -132,4 +132,28 @@ input, textarea {
 
 #portfoliocontainer {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+   
+}
+
+.portfolioimagebox {
+    margin: 1em;
+    /* padding: 1em; */
+}
+
+.portfolioimagebox h2 {
+    background-color: #4aaaa5;
+    font-size: 120%;
+    color: white;
+    padding: .25em;
+    text-align: center;
+    position: relative;
+    bottom: 25%;
+    border: solid 1px black;
+}
+
+.portfolioimage>p {
+    font-weight: bold;
 }
