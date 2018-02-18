@@ -81,6 +81,7 @@ header, nav {
 
 aside {
     width: 270px;
+    height: 270px;
     /* margin: 10px; */
 }
 aside, #articlecontainer {
@@ -168,4 +169,8 @@ input, textarea {
 
 h1#myname, nav {
     line-height: 75px;
+}
+
+#topcontainer>.container {
+    height: 95px;
 }
