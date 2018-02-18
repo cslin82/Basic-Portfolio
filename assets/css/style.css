@@ -61,7 +61,7 @@ header h1 {
     color: white;
 }
 
-header, nav, section, aside, footer,  {
+header, nav, section, aside {
     /* background-color: #4aaaa5; */
     /* text-align: center; */
         margin: 10px;
@@ -112,8 +112,13 @@ aside, #articlecontainer {
 footer {
     background-color: #666666;
     color: #cccccc;
-    margin: auto;
+    margin: 0px auto;
+    padding: 1.5em;
     text-align: center;
+}
+
+footer>p {
+    margin: 0px;
 }
 
 #bottomcontainer {
@@ -154,8 +159,13 @@ input, textarea {
     position: relative;
     bottom: 25%;
     border: solid 1px black;
+    line-height: 1.75em;
 }
 
 #articlecontainer h1, aside h1, aside p {
     padding: 10px;
     }
+
+h1#myname, nav {
+    line-height: 75px;
+}
